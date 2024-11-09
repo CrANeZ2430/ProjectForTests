@@ -30,7 +30,6 @@ int value1 = array[1, 0];
 Console.WriteLine(value1);
 
 //Jagged
-
 int[][] array2 = { [1, 2, 3, 4], [ 5, 6, 7 ] };
 int value2 = array[1, 2];
 Console.WriteLine(value2);
