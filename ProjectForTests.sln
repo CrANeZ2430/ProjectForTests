@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "Arrays\Arrays.csproj", "{457FCCC0-BCE8-43B4-83A6-CA466A1475F1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayFunc", "ArrayFunc\ArrayFunc.csproj", "{2B5AC7CA-2DF2-40B5-BB9F-64691740C20F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{457FCCC0-BCE8-43B4-83A6-CA466A1475F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{457FCCC0-BCE8-43B4-83A6-CA466A1475F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{457FCCC0-BCE8-43B4-83A6-CA466A1475F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B5AC7CA-2DF2-40B5-BB9F-64691740C20F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B5AC7CA-2DF2-40B5-BB9F-64691740C20F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B5AC7CA-2DF2-40B5-BB9F-64691740C20F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B5AC7CA-2DF2-40B5-BB9F-64691740C20F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
