@@ -36,7 +36,6 @@ int value2 = array[1, 2];
 Console.WriteLine(value2);
 
 //ref
-
 int a = 10, b = 20;
 Console.WriteLine(a);
 Console.WriteLine(b);
