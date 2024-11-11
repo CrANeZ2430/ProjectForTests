@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayTest", "ArrayTest\Arra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayTest0", "ArrayTest0\ArrayTest0.csproj", "{40702C22-C497-4537-85C1-3E63DB273825}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Old", "Old\Old.csproj", "{562C736E-48CF-4478-960A-C6939E1E6A71}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{40702C22-C497-4537-85C1-3E63DB273825}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40702C22-C497-4537-85C1-3E63DB273825}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40702C22-C497-4537-85C1-3E63DB273825}.Release|Any CPU.Build.0 = Release|Any CPU
+		{562C736E-48CF-4478-960A-C6939E1E6A71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{562C736E-48CF-4478-960A-C6939E1E6A71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{562C736E-48CF-4478-960A-C6939E1E6A71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{562C736E-48CF-4478-960A-C6939E1E6A71}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
