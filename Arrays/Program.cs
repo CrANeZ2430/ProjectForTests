@@ -1,4 +1,5 @@
 ﻿//One dimensional
+
 int[] myArray = { 47, 25, 91, 156, 32 };
 
 int newArrayLength = 0;
@@ -25,6 +26,7 @@ Console.WriteLine(newArrayLength);
 Console.WriteLine($"{newArray[0]} {newArray[1]}");
 
 //Multidimensional
+
 int[,] array = { { 1, 2 , 3, 4 }, { 5, 6, 7, 8 } };
 int value1 = array[1, 0];
 Console.WriteLine(value1);
@@ -36,6 +38,7 @@ int value2 = array[1, 2];
 Console.WriteLine(value2);
 
 //ref
+
 int a = 10, b = 20;
 Console.WriteLine(a);
 Console.WriteLine(b);
