@@ -11,7 +11,7 @@ foreach (var student in academy)
 
 class Academy : IEnumerator, IEnumerable
 {
-    public readonly List<string> Names;
+    private readonly List<string> Names;
     private int _index = -1;
 
     //IEnumerable

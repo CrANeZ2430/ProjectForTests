@@ -13,8 +13,8 @@ foreach (string carName in car)
 class Car : IEnumerable
 {
     public string Brand { get; set; } = "Mercedes";
-    
-    public List<string> cars = new List<string>() { "A", "B", "C", "D", "E", "F" };
+
+    private List<string> cars = new List<string>() { "A", "B", "C", "D", "E", "F" };
 
 
     public IEnumerator GetEnumerator()

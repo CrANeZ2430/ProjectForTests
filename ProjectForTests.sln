@@ -14,6 +14,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateTask1", "DelegateTa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateTask2", "DelegateTask2\DelegateTask2.csproj", "{0F6D1AA7-27B5-4C04-9653-6976C4C81B57}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iterators", "Iterators\Iterators.csproj", "{57A9619E-77AA-4329-A332-67DD506C65E1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,5 +50,9 @@ Global
 		{0F6D1AA7-27B5-4C04-9653-6976C4C81B57}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F6D1AA7-27B5-4C04-9653-6976C4C81B57}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F6D1AA7-27B5-4C04-9653-6976C4C81B57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57A9619E-77AA-4329-A332-67DD506C65E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57A9619E-77AA-4329-A332-67DD506C65E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57A9619E-77AA-4329-A332-67DD506C65E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57A9619E-77AA-4329-A332-67DD506C65E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
