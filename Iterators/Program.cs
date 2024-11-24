@@ -1,18 +1,14 @@
-﻿Base x = new Base();
-Derived y = new Derived();
+﻿using System.Collections;
 
-x.Print();
-y.Print();
+int[] newArray = { 1, 2, 3 };
+List<int> newList = new() { 1, 2, 3 };
 
-class Base
+IEnumerable<int> newIEnumerable = newArray;
+IEnumerator newIEnumerator = newArray.GetEnumerator();
+IEnumerator<int> newEnumList = newList.GetEnumerator();
+
+foreach (int item in newIEnumerable)
 {
-    public void Print()
-    {
-        Console.WriteLine($"{GetType()} Print");
-    }
+    Console.WriteLine(item);
 }
 
-class Derived : Base
-{
-    
-}
