@@ -16,7 +16,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateTask2", "DelegateTa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NongenericArrays", "NongenericArrays\NongenericArrays.csproj", "{7FAD6276-D72F-4B59-9B90-1E565B0B98DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iterators", "Iterators\Iterators.csproj", "{4A330FB6-3211-4B6B-923A-9F25487EF7CE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Directory", "Directory\Directory.csproj", "{36C9FC9C-BD3A-45B7-AF49-25FAAEFDB205}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -56,9 +56,9 @@ Global
 		{7FAD6276-D72F-4B59-9B90-1E565B0B98DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7FAD6276-D72F-4B59-9B90-1E565B0B98DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7FAD6276-D72F-4B59-9B90-1E565B0B98DA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4A330FB6-3211-4B6B-923A-9F25487EF7CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4A330FB6-3211-4B6B-923A-9F25487EF7CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4A330FB6-3211-4B6B-923A-9F25487EF7CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4A330FB6-3211-4B6B-923A-9F25487EF7CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36C9FC9C-BD3A-45B7-AF49-25FAAEFDB205}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36C9FC9C-BD3A-45B7-AF49-25FAAEFDB205}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36C9FC9C-BD3A-45B7-AF49-25FAAEFDB205}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36C9FC9C-BD3A-45B7-AF49-25FAAEFDB205}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
