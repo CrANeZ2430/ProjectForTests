@@ -18,6 +18,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NongenericArrays", "Nongene
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Directory", "Directory\Directory.csproj", "{36C9FC9C-BD3A-45B7-AF49-25FAAEFDB205}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelManagement", "ExcelManagement\ExcelManagement.csproj", "{4FE61E37-71C7-4053-AAB2-7C77CEBED412}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dumper", "Dumper\Dumper.csproj", "{FEF0D714-277E-4D20-BFCA-A545572E291D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -60,5 +64,13 @@ Global
 		{36C9FC9C-BD3A-45B7-AF49-25FAAEFDB205}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{36C9FC9C-BD3A-45B7-AF49-25FAAEFDB205}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{36C9FC9C-BD3A-45B7-AF49-25FAAEFDB205}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FE61E37-71C7-4053-AAB2-7C77CEBED412}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FE61E37-71C7-4053-AAB2-7C77CEBED412}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FE61E37-71C7-4053-AAB2-7C77CEBED412}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FE61E37-71C7-4053-AAB2-7C77CEBED412}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEF0D714-277E-4D20-BFCA-A545572E291D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEF0D714-277E-4D20-BFCA-A545572E291D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEF0D714-277E-4D20-BFCA-A545572E291D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEF0D714-277E-4D20-BFCA-A545572E291D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

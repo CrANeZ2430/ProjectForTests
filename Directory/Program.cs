@@ -15,9 +15,30 @@ students.Add(126, "Jimmy Jones");
 //File.WriteAllText(dirs[0], $"{students[123]} {students[126]}");
 //File.AppendAllText(dirs[0], $" {students[124]} {students[125]}");
 //File.AppendAllText(@"C:\Temp\ManagerFolder\AnotherFile.txt", $" {students[126]} {students[125]}");
-foreach (string value in students.Values)
-{
-    File.AppendAllText(rootDir + "\\DataBase.txt", $"{value}\n");
-}
+
+// foreach (string value in students.Values)
+// {
+//     File.AppendAllText(rootDir + "\\DataBase.txt", $"{value}\n");
+// }
+// var storage = File.ReadAllLines(rootDir + "\\DataBase.txt");
+// Console.WriteLine(storage.Length);
+
+//Task with tasks management
+List<Sample> tasks = new List<Sample>();
 var storage = File.ReadAllLines(rootDir + "\\DataBase.txt");
-Console.WriteLine(storage.Length);
+
+var statusStorage = storage.Where(line => line.Contains("Unfinished") || line.Contains("Finished")).ToList();
+var descStorage = storage.Where(line => !line.Contains("Unfinished") && !line.Contains("Finished")).ToList();
+
+for (int i = 0; i < statusStorage.Count(); i++)
+{
+    tasks.Add(new Sample(descStorage[i], statusStorage[i]));
+}
+
+Console.ReadLine();
+
+class Sample(string d, string st)
+{
+    public string desc = d;
+    public string status = st;
+}
