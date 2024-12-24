@@ -4,8 +4,9 @@ var animalList = new AnimalList<IAnimal>();
 animalList.AddAnimal(new Cat("Bella", 5));
 animalList.AddAnimal(new Cat("Luna", 6));
 animalList.AddAnimal(new Dog("Max", 10));
-animalList.AddAnimal(new Dog("Barsik", 0));
-animalList.AddAnimal(new Cat("Mark", 11));
+animalList.AddAnimal(new Cat("Barsik", 0));
+animalList.AddAnimal(new Dog("Funk", 2));
+animalList.AddAnimal(new Dog("Mark", 11));
 
 animalList.DisplayAnimals();
 
